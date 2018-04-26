@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/home/cuiqiang/software/mygithub/CMakeDemo/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/home/cuiqiang/Android/sdk/cmake/3.6.4111459/bin/cmake --build /home/cuiqiang/software/mygithub/CMakeDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"hello-lib-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "hello-lib",
+			"buildCommand" : "/home/cuiqiang/Android/sdk/cmake/3.6.4111459/bin/cmake --build /home/cuiqiang/software/mygithub/CMakeDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target hello-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/cuiqiang/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/cuiqiang/Android/sdk/ndk-bundle/sysroot  -Dhello_lib_EXPORTS -isystem /home/cuiqiang/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/cuiqiang/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/cuiqiang/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/cuiqiang/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/cuiqiang/software/mygithub/CMakeDemo/app/src/main/cpp/hello.cpp",
+					"workingDirectory" : "/home/cuiqiang/software/mygithub/CMakeDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/home/cuiqiang/software/mygithub/CMakeDemo/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-lib.so",
+			"toolchain" : "16380986045031328992"
+		}
+	},
+	"toolchains" : 
+	{
+		"16380986045031328992" : 
+		{
+			"cCompilerExecutable" : "/home/cuiqiang/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/cuiqiang/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

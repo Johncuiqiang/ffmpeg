@@ -1,0 +1,3 @@
+D:/myGithub/ffmpeg/FFmpegDemo/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/hello-lib.dir
+D:/myGithub/ffmpeg/FFmpegDemo/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/edit_cache.dir
+D:/myGithub/ffmpeg/FFmpegDemo/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/rebuild_cache.dir

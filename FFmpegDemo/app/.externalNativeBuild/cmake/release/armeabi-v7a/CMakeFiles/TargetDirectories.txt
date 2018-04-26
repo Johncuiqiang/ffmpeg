@@ -1,0 +1,3 @@
+/home/cuiqiang/software/mygithub/CMakeDemo/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/cuiqiang/software/mygithub/CMakeDemo/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/cuiqiang/software/mygithub/CMakeDemo/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/hello-lib.dir

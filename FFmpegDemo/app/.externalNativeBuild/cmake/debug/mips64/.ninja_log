@@ -1,0 +1,3 @@
+# ninja log v5
+1	53	0	CMakeFiles/hello-lib.dir/src/main/cpp/hello.cpp.o	5b6f1c1a707e604c
+53	129	0	../../../../build/intermediates/cmake/debug/obj/mips64/libhello-lib.so	e8b2c862bef262cb
