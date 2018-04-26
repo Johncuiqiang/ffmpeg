@@ -1,3 +1,0 @@
-/home/cuiqiang/software/mygithub/CMakeDemo/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
-/home/cuiqiang/software/mygithub/CMakeDemo/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
-/home/cuiqiang/software/mygithub/CMakeDemo/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/hello-lib.dir
