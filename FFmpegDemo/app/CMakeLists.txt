@@ -4,6 +4,12 @@ cmake_minimum_required(VERSION 3.4.1)
 # 或者共享，并提供其源代码的相对路径。
 # 您可以定义多个库，而cbuild为您构建它们。
 # Gradle自动将共享库与你的APK打包。
+#添加头文件路径（相对于本文件路径）
+include_directories(include)
+#设置ffmpeg库所在路径的变量
+set(FF ${CMAKE_CURRENT_SOURCE_DIR}/libs/${ANDROID_ABI})
+add_library(avcodec SHARED IMPORTED)
+set_target_properties(avcodec PROPERTIES IMPORTED_LOCATION ${FF}/libavcodec.so)
 
 add_library( hello-lib  #设置库的名称。即SO文件的名称，生产的so文件为“libhello-lib.so”,在加载的时候“System.loadLibrary("hello-lib");”
              SHARED  # 将库设置为共享库。

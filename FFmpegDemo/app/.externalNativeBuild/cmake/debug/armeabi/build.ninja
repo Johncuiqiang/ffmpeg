@@ -36,7 +36,7 @@ build CMakeFiles/hello-lib.dir/src/main/cpp/hello.cpp.o: CXX_COMPILER__hello-lib
   DEFINES = -Dhello_lib_EXPORTS
   DEP_FILE = CMakeFiles\hello-lib.dir\src\main\cpp\hello.cpp.o.d
   FLAGS = -isystem E:/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -isystem E:/SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem E:/SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem E:/SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  INCLUDES = -I../../../../include -isystem E:/SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem E:/SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem E:/SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = D:\myGithub\ffmpeg\FFmpegDemo\app\src\main\cpp\hello.cpp
   OBJECT_DIR = CMakeFiles\hello-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\hello-lib.dir\src\main\cpp
